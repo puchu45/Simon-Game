@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+.boxes{
+    height: 120px;
+    width: 120px;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box1{
+    background-color: #d95980;
+}
+.box2{
+    background-color: #f99b45;
+}
+.box3{
+    background-color: #63aac0;
+}
+.box4{
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
+@media (width: 200px) {
+  .mainbox {
+    display: grid;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+  }
+}
